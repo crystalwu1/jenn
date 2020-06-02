@@ -1,0 +1,17 @@
+.title {
+  width: 60%;
+  height: auto;
+  padding-left: 10%;
+  padding-top: 3%;
+}
+
+.title h1{
+  margin-block-end: 0em;
+}
+
+@media only screen and (max-width: 800px){
+    .title {
+      padding: 10%;
+      width: 80%;
+    }
+}

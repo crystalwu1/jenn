@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Jen(n) Lee </title>
+  <link rel="stylesheet" href="style/all.css">
+  <link rel="stylesheet" href="style/projects.css">
+  <link rel="shortcut icon" type="image/png" href="little4.png" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/Logo.png">
+</head>
+
+<body id="main">
+  <div class="wrapper">
+    <div id="navbar" class="nav">
+      <a href="index.html"> <img src="images/Logo.png" alt="logo"> </a>
+      <a href="about.html">about me</a>
+      <a href="mechanical.html">mechanical</a>
+      <a href="architectural.html" class="active">architectural</a>
+      <a href="editorial.html">editorial</a>
+      <a href="files/resume.pdf" target="_blank">resume</a>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html" class="active"><img src="images/Logo.png" alt="logo"></a>
+      <div id="myLinks">
+        <a href="about.html">about</a>
+        <a href="mechanical.html">mechanical</a>
+        <a href="architectural.html" class="active">architectural</a>
+        <a href="editorial.html">editorial</a>
+        <a href="files/resume.pdf">resume</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div id="projects" class="project-contain">
+      <div class="title">
+        <h3> architectural </h3>
+      </div>
+      <div class="project-description"> <img src="images/cultural.png" alt=""> </div>
+      <div class="project-description">
+        <a href="cusail.html"> Cowichan Cultural Centre </a>
+        <p> The Cowichan Cultural Centre aims to create a fundamental guideline for a Living Building Challenge
+          Certified buildings and space. When working with the Cowichan Tribes, they indicated a need for a new
+          exhibition space, grave house, storage space, meeting space, etc. We worked on creating a wide variety of
+          design strategies to fulfill both the tribes visions and the Living Building Challenge Guidelines. I led the
+          energy science research of the group; calculating low cost, low embodied carbon materials, high energy
+          production methods and designing a net zero energy commercial building.
+        </p>
+      </div>
+      <div class="project-description"> <img src="images/bridge.png" alt=""> </div>
+      <div class="project-description">
+        <a href="cusail.html"> The Bridge X-ing </a>
+        <p> </p>
+      </div>
+      <div class="project-description"> <img src="images/profile.jpg" alt=""> </div>
+      <div class="project-description">
+        <a href="cusail.html"> My Special Place </a>
+        <p> Inspired by my childhood bunk bed and my twin little sisters, my Special Place is a 4-story architectural
+          structure composed of ladders, skylights, glass ceilings, and more. The project was constructed out of
+          environmentally conscious materials such as museum boards, used bamboo skewers, basswood, and water based
+          glue.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
