@@ -46,12 +46,7 @@
     font-weight: bold;
     font-size: 35px;
     line-height: 42px;
-
     color: #D49A6E;
-}
-
-.project:hover{
-    color: #3A3A3A;
 }
 
 .button {
