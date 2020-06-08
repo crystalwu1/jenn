@@ -93,23 +93,8 @@
         margin-block-end: 3em;
     }
 
-    iframe {
-        width: 88%;
-        margin-left: 6%;
-        min-height: 200px;
-        margin-bottom: 6%;
-    }
-
     .wrapper {
         padding: 6%;
-    }
-
-    .back {
-        display: none;
-    }
-
-    .timeline-section {
-        width: 100%;
     }
 
     .project-description{
