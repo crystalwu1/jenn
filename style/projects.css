@@ -7,10 +7,20 @@
 
 .project-description{
     margin: 50px;
-    width:35%;
     min-width: 300px;
     height: auto;
     max-width: 400px;
+    height: auto;
+    position: relative;
+}
+
+.project-description-whole{
+    width: 60%;
+    min-width: 300px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: auto;
     height: auto;
     position: relative;
 }
@@ -20,11 +30,16 @@
     width: auto;
 }
 
+.project-description-whole img{
+    width: 100%;
+    height: auto;    
+}
+
 .title {
     width: 80%;
 }
 
-.project-description a{
+.project{
     margin-block-start: 0em;
     margin-block-end: 0em;
     font-style: normal;
@@ -35,24 +50,79 @@
     color: #D49A6E;
 }
 
-.project-description a:hover{
+.project:hover{
     color: #3A3A3A;
 }
 
+.button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #D49A6E;
+    color: white;
+    border-radius: 5px;
+    width: auto;
+    font-weight: normal;
+}
+
+.button:hover{
+    background-color: #3A3A3A;
+    color: #D49A6E;
+}
+
+.project-description p{
+    margin-bottom: 8%;
+}
+
 @media only screen and (max-width: 800px){
-    .project-description{
-        padding-left: 0px;
-        margin-bottom: 10px;
-        margin-top: 10px;
+    h2 {
+        margin-left: 6%;
+        margin-right: 6%;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     h3 {
-        text-align: center;
+        text-align: left;
+        margin-left: 6%;
         margin-block-end: 1em;
         margin-block-start: .5em;
     }
 
     p{
         margin-block-end: 3em;
+    }
+
+    iframe {
+        width: 88%;
+        margin-left: 6%;
+        min-height: 200px;
+        margin-bottom: 6%;
+    }
+
+    .wrapper {
+        padding: 6%;
+    }
+
+    .back {
+        display: none;
+    }
+
+    .timeline-section {
+        width: 100%;
+    }
+
+    .project-description{
+        padding-left: 0px;
+        margin-bottom: 35px;
+        margin-top: 25px;
+    }
+
+    .project-description img {
+        width: 100%;
+    }
+
+    .title h3 {
+        margin-left: 0;
     }
 }

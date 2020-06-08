@@ -5,11 +5,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title> Jen(n) Lee </title>
-  <link rel="stylesheet" href="style/all.css">
   <link rel="stylesheet" href="style/projects.css">
+  <link rel="stylesheet" href="style/all.css">
   <link rel="shortcut icon" type="image/png" href="little4.png" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
   <link rel="icon" href="images/Logo.png">
+  <script src="jquery.js"></script>
+  <script defer src="./javascript/nav.js"></script>
 </head>
 
 <body id="main">
@@ -33,7 +35,7 @@
         <a href="files/resume.pdf">resume</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+        <img src="images/hamburger.svg" class="hamburger" />
       </a>
     </div>
 
@@ -41,28 +43,34 @@
       <div class="title">
         <h3> mechanical </h3>
       </div>
-      <div class="project-description"> <img src="images/tensioner.png" alt=""> </div>
+      <div class="project-description"> <a href="cusail.html"> <img src="images/tensioner.png"
+            alt="CUSail Belt Tensioner"> </a> </div>
       <div class="project-description">
-        <a href="cusail.html"> Cornell Autonomous Sailboat Team </a>
+        <a href="cusail.html" class="project"> Cornell Autonomous Sailboat Team </a>
         <p> CUSail is an engineering project team that designs and manufactures an autonomous sailboat to compete in the
           SailBot International Robotic Sailboat Regatta. </p>
+        <a class="button" href="cusail.html"> read more </a>
       </div>
-      <div class="project-description"> <img src="images/laceup.png" alt=""> </div>
+      <div class="project-description"> <a href="laceup.html"> <img src="images/laceup.png" alt="Lace Up">
+        </a> </div>
       <div class="project-description">
-        <a href="laceup.html"> Lace Up </a>
+        <a href="laceup.html" class="project"> Lace Up </a>
         <p> Lace Up is a product that is designed to aid ice skaters with tightening and tensioning their laces. This
           product has the potential to expand to larger markets targeting any individual with difficulty tying and
           tightening their laces. Our design focuses on usability, efficiency, and convenience. </p>
+        <a class="button" href="laceup.html"> read more </a>
       </div>
-      <div class="project-description"> <img src="images/pump.png" alt=""> </div>
+      <div class="project-description"> <a href="waterpump.html"> <img src="images/pump.png" alt="Water Pump"> </a>
+      </div>
       <div class="project-description">
-        <a href="waterpump.html"> Water Pump </a>
+        <a href="waterpump.html" class="project"> Water Pump </a>
         <p> Our customer was developing a water pump for energy storage and needed a small-scale prototype of an
           efficient water pump. We were provided with all the necessary specifications and budget to design, develop,
           and manufacture a working prototype. I created all presentations and documents necessary for the group while
           actively participating in the design process. I was the main communicator and oversaw the group organization
           for optimum performance.
         </p>
+        <a class="button" href="waterpump.html"> read more </a>
       </div>
     </div>
   </div>
@@ -70,14 +78,3 @@
 </body>
 
 </html>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-</script>

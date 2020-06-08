@@ -1,0 +1,23 @@
+.back {
+  position: fixed;
+  margin-left: 7%;
+  margin-top: 7%;
+}
+
+.timeline-section {
+  margin: 3%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.timeline-section p{
+  margin-block-end: 0em;
+}
+
+iframe {
+  width: 100%;
+  min-height: 500px;
+  max-height: 700px;
+  height: 50vh;
+  margin-top: 5%;
+}

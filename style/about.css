@@ -23,7 +23,10 @@
 }
 
 .blurb a{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-weight: normal;
+    color:  #D49A6E;
+    ;
 }
 
 @media only screen and (max-width: 650px){

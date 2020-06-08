@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="style/all.css">
   <link rel="stylesheet" href="style/index.css">
   <link rel="shortcut icon" type="image/png" href="little4.png" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
   <link rel="icon" href="images/Logo.png">
+  <script defer src="./javascript/nav.js"></script>
 </head>
 
 <body id="main">
@@ -33,12 +34,12 @@
         <a href="files/resume.pdf">resume</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+        <img src="images/hamburger.svg" class="hamburger" />
       </a>
     </div>
 
     <div class="title">
-      <h1> Jen(n) Lee </h1>
+      <h1> Jen<span style="color: #D49A6E;">(n)</span> Lee </h1>
       <h2> mechanical engineer with a love for user-centered and environmentally conscious design. </h2>
     </div>
   </div>
@@ -47,14 +48,3 @@
 </body>
 
 </html>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-</script>

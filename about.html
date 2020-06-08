@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="style/about.css">
   <link rel="stylesheet" href="style/all.css">
   <link rel="shortcut icon" type="image/png" href="little4.png" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
   <link rel="icon" href="images/Logo.png">
+  <script src="jquery.js"></script>
+  <script defer src="./javascript/nav.js"></script>
 </head>
 
 <body id="main">
@@ -33,7 +35,7 @@
         <a href="files/resume.pdf">resume</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+        <img src="images/hamburger.svg" class="hamburger" />
       </a>
     </div>
 
@@ -45,18 +47,24 @@
         <h3>about me</h3>
         <p>
           My name is Seol-Yee Lee and I go by Jen(n). In my free time, I play the cello and compose/transpose music for
-          the Cornell Eastern Music Ensemble and work on their executive board. I love event developing, designing, and
+          the <a href="http://cornellceme.org/" target="_blank">Cornell Eastern Music Ensemble</a> and work on their
+          executive board. I
+          love event developing, designing, and
           making. These passions helped me build my portfolio.
         </p>
         <p>
           <span style="font-weight: bold">Current</span> <br>
-          Undergraduate Researcher @ Hybrid Body Lab <br>
-          Mechanical Team Member @ CUSail <br>
-          Vice President and Editorial Member @ Medium Design Collective
+          Undergraduate Researcher @ <a href='https://www.hybridbody.human.cornell.edu/' target="_blank">Hybrid Body
+            Lab</a> <br>
+          Mechanical Team Member @ <a href="https://cusail.engineering.cornell.edu/" target="_blank">CUSail</a> <br>
+          Vice President and Editorial Member @ <a href="https://cornellmedium.design/" target="_blank">Medium Design
+            Collective</a>
         </p>
         <p>
           <span style="font-weight: bold">Past</span> <br>
-          Lead Power Engineer & Software Engineer @ Cislunar Explorers, Lunar CubeSat <br>
+          Lead Power Engineer & Software Engineer @ <a href="https://cislunarexplorers.wordpress.com/"
+            target="_blank">Cislunar
+            Explorers, Lunar CubeSat</a> <br>
           Lead Energy Researcher @ Cowichan Cultural Center Research Group <br>
           Sculptor and Woodworker @ Jack Elliott Woodworking Lab
         </p>
@@ -66,14 +74,3 @@
 </body>
 
 </html>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-</script>

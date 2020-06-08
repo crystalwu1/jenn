@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: "Lato";
     padding: 0;
     margin: 0;
 }
@@ -125,21 +125,26 @@ p {
   }
   
   .topnav a.icon {
-    background: #D49A6E;
+    background: #1D1D1D;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
+    padding: 5px;
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #D49A6E;
     color: black;
   }
   
   .active {
     background-color: #1D1D1D;
     color: white;
+  }
+
+  .hamburger {
+    max-height: 40px;
   }
 
   @media only screen and (max-width: 800px){

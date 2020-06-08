@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="style/all.css">
   <link rel="stylesheet" href="style/projects.css">
   <link rel="shortcut icon" type="image/png" href="little4.png" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
   <link rel="icon" href="images/Logo.png">
+  <script src="jquery.js"></script>
+  <script defer src="./javascript/nav.js"></script>
 </head>
 
 <body id="main">
@@ -33,7 +35,7 @@
         <a href="files/resume.pdf">resume</a>
       </div>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+        <img src="images/hamburger.svg" class="hamburger" />
       </a>
     </div>
 
@@ -41,9 +43,10 @@
       <div class="title">
         <h3> architectural </h3>
       </div>
-      <div class="project-description"> <img src="images/cultural.png" alt=""> </div>
+      <div class="project-description"> <a href="ccc.html"> <img src="images/cultural.png"
+            alt="Cowichan Cultural Center"> </a> </div>
       <div class="project-description">
-        <a href="cusail.html"> Cowichan Cultural Centre </a>
+        <a href="ccc.html" class="project"> Cowichan Cultural Centre </a>
         <p> The Cowichan Cultural Centre aims to create a fundamental guideline for a Living Building Challenge
           Certified buildings and space. When working with the Cowichan Tribes, they indicated a need for a new
           exhibition space, grave house, storage space, meeting space, etc. We worked on creating a wide variety of
@@ -51,20 +54,24 @@
           energy science research of the group; calculating low cost, low embodied carbon materials, high energy
           production methods and designing a net zero energy commercial building.
         </p>
+        <a class="button" href="ccc.html"> read more </a>
       </div>
-      <div class="project-description"> <img src="images/bridge.png" alt=""> </div>
+      <div class="project-description"> <a href="bridge.html"> <img src="images/bridge.png" alt="Bridge"> </a> </div>
       <div class="project-description">
-        <a href="cusail.html"> The Bridge X-ing </a>
+        <a href="bridge.html" class="project"> The Bridge X-ing </a>
         <p> </p>
+        <a class="button" href="bridge.html"> read more </a>
       </div>
-      <div class="project-description"> <img src="images/profile.jpg" alt=""> </div>
+      <div class="project-description"> <a href="specialplace.html"> <img src="images/specialplace.png"
+            alt="My Special Place"> </a> </div>
       <div class="project-description">
-        <a href="cusail.html"> My Special Place </a>
+        <a href="specialplace.html" class="project"> My Special Place </a>
         <p> Inspired by my childhood bunk bed and my twin little sisters, my Special Place is a 4-story architectural
           structure composed of ladders, skylights, glass ceilings, and more. The project was constructed out of
           environmentally conscious materials such as museum boards, used bamboo skewers, basswood, and water based
           glue.
         </p>
+        <a class="button" href="specialplace.html"> read more </a>
       </div>
     </div>
   </div>
@@ -72,14 +79,3 @@
 </body>
 
 </html>
-
-<script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-</script>
